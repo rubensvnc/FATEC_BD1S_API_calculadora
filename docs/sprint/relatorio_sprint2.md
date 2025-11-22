@@ -1,5 +1,5 @@
 
-#  Sprint Backlog - Sprint 2
+# Sprint 2
 
 ##  Meta da Sprint
 Implementar as proximas três funcionalidades "segundarias" da calculadora (N primeiros números primos, Sequência geométrica e Tribonacci até N termos) para validar a continuidade do funcionamento do sistema.
@@ -47,17 +47,16 @@ Total estimado: **13 pontos**
 
 13 pontos: mais difícil, envolve cuidado extra.
 
----
 
 ##  Tarefas
 | User Story | Tarefa | Responsável | Tempo Estimado | Status |
 |------------|--------|-------------|----------------|--------|
-| US-004 | Implementar N primeiros números primos | Dev Duo | > 4h | Concluído |
-| US-004 | Criar testes/documentação | Dev Duo | > 2h | Concluído |
-| US-005 | Implementar Sequência geométrica | Dev Duo | > 4h | Concluído |
-| US-005 | Criar testes/documentação | Dev Duo | > 2h | Concluído | 
-| US-006 | Implementar Tribonacci até N termos | Dev Duo | > 4h | Concluído | 
-| US-006 | Criar testes/documentação | Dev Duo | > 2h | Concluído | 
+| US-004 | Implementar N primeiros números primos | Dev Duo | 4h | Concluído |
+| US-004 | Criar testes/documentação | Dev Duo | 2h | Concluído |
+| US-005 | Implementar Sequência geométrica | Dev Duo | 4h | Concluído |
+| US-005 | Criar testes/documentação | Dev Duo | 2h | Concluído | 
+| US-006 | Implementar Tribonacci até N termos | Dev Duo | 4h | Concluído | 
+| US-006 | Criar testes/documentação | Dev Duo | 2h | Concluído | 
 
 
 
@@ -115,8 +114,6 @@ Como usuário da calculadora de sequências lógicas, quero inserir o limite N d
 * Testes realizados
 * Documentação atualizada
 * Review feita
-
-
 
 
 #  Alocação de Tarefas
