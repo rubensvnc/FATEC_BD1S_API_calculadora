@@ -51,6 +51,7 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - [Manual do Usuário](docs/manual/usuario.md)
 - [Relatório Sprint 1](docs/sprint/relatorio_sprint1.md)
 - [Relatorio Sprint 2](docs/sprint/relatorio_sprint2.md)
+- [Relatorio Sprint 3](docs/sprint/relatorio_sprint3.md)
 
 
 ##  Tecnologia utilizadas 
