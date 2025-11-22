@@ -27,7 +27,7 @@ Checklist que garante que a User Story foi concluída com qualidade:
 - [x] Documentação atualizada (README, backlog, sprint) 
 
 
-##  User Stories da Sprin
+##  User Stories da Sprint
 | Rank | US | Estimativa | Status |
 |------|----|------------|--------|
 | 4 | US-004 – N primeiros números primos | 3 pontos | Concluído |
