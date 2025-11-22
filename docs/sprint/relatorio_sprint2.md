@@ -27,12 +27,12 @@ Checklist que garante que a User Story foi concluída com qualidade:
 - [x] Documentação atualizada (README, backlog, sprint) 
 
 
-##  User Stories da Sprint 1
+##  User Stories da Sprin
 | Rank | US | Estimativa | Status |
 |------|----|------------|--------|
-| 1 | US-004 – N primeiros números primos | 3 pontos | Concluído |
-| 2 | US-005 – Sequência geométrica | 5 pontos | Concluído |
-| 3 | US-006 – Tribonacci até N termos | 8 pontos | Concluído |
+| 4 | US-004 – N primeiros números primos | 3 pontos | Concluído |
+| 5 | US-005 – Sequência geométrica | 5 pontos | Concluído |
+| 6 | US-006 – Tribonacci até N termos | 8 pontos | Concluído |
 
 
 Total estimado: **13 pontos**
@@ -51,15 +51,15 @@ Total estimado: **13 pontos**
 ##  Tarefas
 | User Story | Tarefa | Responsável | Tempo Estimado | Status |
 |------------|--------|-------------|----------------|--------|
-| US-004 | Implementar N primeiros números primos | Dev Duo | 4h | Concluído |
-| US-004 | Criar testes/documentação | Dev Duo | 2h | Concluído |
-| US-005 | Implementar Sequência geométrica | Dev Duo | 4h | Concluído |
-| US-005 | Criar testes/documentação | Dev Duo | 2h | Concluído | 
-| US-006 | Implementar Tribonacci até N termos | Dev Duo | 4h | Concluído | 
-| US-006 | Criar testes/documentação | Dev Duo | 2h | Concluído | 
+| US-004 | Implementar N primeiros números primos | Dev Duo | 2h | Concluído |
+| US-004 | Criar testes/documentação | Dev Team | ±1h | Concluído |
+| US-005 | Implementar Sequência geométrica | Dev Duo | 1h30 | Concluído |
+| US-005 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
+| US-006 | Implementar Tribonacci até N termos | Dev Duo | 2h30 | Concluído | 
+| US-006 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
 
 
-
+#  Detalhamento das User Stories
 **US-004 – N primeiros números primos**
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem dos primeiros N primos, onde eu insiro N
 
@@ -77,8 +77,6 @@ Como usuário da calculadora de sequências lógicas, quero a implementação l�
 * Documentação atualizada
 * Review feita
 
-
-#  Detalhamento das User Stories
 
 **US-005 – Sequência geométrica**
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula para cálculo de sequências geométricas, onde eu insiro a razão, número de termos, e primeiro termo.
@@ -118,11 +116,11 @@ Como usuário da calculadora de sequências lógicas, quero inserir o limite N d
 
 #  Alocação de Tarefas
 
-| User Story | Tarefa | Responsável | Tempo Estimado | Status |
-|------------|--------|-------------|----------------|--------|
-| US-01 | N primeiros números primos | Dev Matheus - Rubens  | 2h | Concluida |
-| US-01 | Sequência geométrica | Dev Breno - Guilhermina  | 1h30 | Concluida |
-| US-03 | Tribonacci até N termos | Dev Wanderson - Mariana | 2h30 | Concluida |
+| User Story | Tarefa | Responsável | Status |
+|------------|--------|-------------|--------|
+| US-04 | N primeiros números primos | Dev Matheus - Rubens | Concluida |
+| US-05 | Sequência geométrica | Dev Breno - Guilhermina | Concluida |
+| US-06 | Tribonacci até N termos | Dev Wanderson - Mariana | Concluida |
 
  Regras:
 - Nenhuma tarefa > 8h  
