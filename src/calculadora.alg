@@ -1,6 +1,6 @@
 Algoritmo "Calculadora de Sequencias Logicas"
 
-// EXPLICACAO DAS VARIÁVEIS
+// EXPLICACAO DAS VARI?VEIS
 
 
 // Variaveis globais do programa
@@ -28,18 +28,31 @@ Algoritmo "Calculadora de Sequencias Logicas"
 //--qtd_primos, n_atual, i_primos, divisores: inteiro
 //--n_raiz: real
 
+// Variaveis para Sequencia Numeros Triangulares Posicoes Impares
+//--i: inteiro
+//--resultado: real
+
+// Variaveis para Sequencia de Cubos
+//--i: inteiro
+
+// Variaveis para Sequencia Reversa de Fatoriais
+//--n_fat, fat, i, j: inteiro
+
+
+
+
 Var
 
 
-   opcao, i, N, contador, multiploDe3, quadrado, termos, qtd_primos, n_atual, i_primos, divisores: inteiro
+   opcao, i, N, contador, multiploDe3, quadrado, termos, qtd_primos, n_atual, i_primos, divisores, n_fat, fat, j: inteiro
 
    pausar, operacao : caractere
-   anterior3, anterior2, anterior1, proximo, N_alternada, razao, primeiro_termo, progrecao_geometrica, n_raiz: real
+   anterior3, anterior2, anterior1, proximo, N_alternada, razao, primeiro_termo, progrecao_geometrica, n_raiz, resultado: real
 
 Inicio
    // Estrutura de repeticao principal do menu.
    // Continua rodando enquanto a opcao escolhida nao for 6 (Sair).
-   enquanto opcao <> 7 faca
+   enquanto opcao <> 10 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequencia de Fibonacci (apenas pares)")
@@ -48,7 +61,10 @@ Inicio
       escreval (" 04 - Numeros Primos")
       escreval (" 05 - Progressao Geometrica")
       escreval (" 06 - Sequencia de Tribonacci")
-      escreval (" 07 - Sair")
+      escreval (" 07 - Sequencia Numeros Triangulares Posicoes Impares")
+      escreval (" 08 - Sequencia de Cubos")
+      escreval (" 09 - Sequencia Reversa de Fatoriais")
+      escreval (" 10 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
@@ -130,7 +146,7 @@ Inicio
                i <- i+1
             fimenquanto
          senao
-            escreval("Operacao inválida")
+            escreval("Operacao inv?lida")
          fimse
 
 
@@ -168,7 +184,7 @@ Inicio
                   i<-i+1
                fimenquanto
 
-               // um numero será primo se só 1 divisor entre 1 e sua raiz
+               // numero primo -> somente 1 divisor entre sua raiz e '1'
                se (divisores = 1) entao
                   escreval(n_atual)
                   i_primos <- i_primos+1
@@ -183,6 +199,7 @@ Inicio
 
          // Opcao 5: Progressao Geometrica
       caso 5
+         escreval ("5 - Progressao Geometrica")
          escreval("insira a razao:")
          leia(razao)
          escreval("Insira o Numero de Termos:")
@@ -192,10 +209,10 @@ Inicio
             leia(primeiro_termo)
             i<- 1
 
-            escreval("O",i,"º termo da progressao geometrica e:",primeiro_termo)
+            escreval("O",i,"  termo da progressao geometrica e:",primeiro_termo)
             para i de 1 ate (termos-1) faca
                progrecao_geometrica <- primeiro_termo*razao
-               escreval("O",i,"º termo da progressao geometrica e:",progrecao_geometrica)
+               escreval("O",i,"  termo da progressao geometrica e:",progrecao_geometrica)
                primeiro_termo<-progrecao_geometrica
             fimpara
 
@@ -205,6 +222,7 @@ Inicio
 
          // Opcao 6: Tribonacci
       caso 6
+         escreval ("6 - Sequencia Tribonacci")
          escreval("Digite quantos termos de Tribonacci voce vai querer:")
          leia(N)
 
@@ -235,14 +253,52 @@ Inicio
          fimpara
          //fim sessao
 
-         // Opcao 7: Sair
       caso 7
-         escreval ("7 - Sair")
+         escreval ("7 - Sequencia Numeros Triangulares Posicoes Impares")
+         i<-1
+
+         para i de 1 ate 20 faca
+            se i % 2 <> 0 entao
+               resultado <- (i *(i + 1)) / 2
+               escreval("Posicao ", i , ": ", resultado)
+            fimse
+         fimpara
+
+      caso 8
+         escreval ("8 - Sequencia Cubos")
+         i<-1
+         para i de 1 ate 15 faca
+            escreval(i,"  cubo - ", i*i*i)
+         fimpara
+
+      caso 9
+         escreval ("9 - Sequencia Reversa Fatoriais")
+
+         escreval("Digite quantos termos da sequencia deseja: ")
+         leia(n_fat)
+
+         se (n_fat = 0) entao
+            escrevaL("0! = 1")
+         senao
+            se (n_fat > 0) entao
+               i<-1
+               para i de n_fat ate 1 passo -1 faca
+                  fat<-1
+                  para j de 1 ate i faca
+                     fat<-fat*j
+                  fimpara
+                  escreval(i, "! = ",fat)
+               fimpara
+            senao
+               escreval("Quantia invalida!")
+            fimse
+         fimse
+
+      caso 10
+         escreval ("10 - Sair")
          escreval ("Saindo do programa. Ate mais!")
 
          // --- Logica de Pausa e Retorno ao Menu ---'
-         // Pausa a execucao se o usuario nao escolheu Sair (opcao 6)
-
       outrocaso
          escreval("")
          escreval("Pressione qualquer tecla e ENTER para voltar ao menu...")
