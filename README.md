@@ -21,9 +21,9 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 | 4 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem dos primeiros N primos, onde eu insiro N | 3 pontos | 2 |
 | 5 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula para cálculo de sequências geométricas, onde eu insiro a razão, número de termos, e primeiro termo. | 5 pontos | 2 |
 | 6 | Média | Como usuário da calculadora de sequências lógicas, quero inserir o limite N de termos ao gerar a sequência de Tribonacci, no qual a quantidade de elementos dispostos na interface não pode ser maior que N. | 8 pontos | 2 |
-| 7 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula de números triangulares em posições impares, começando pela posição 1, até a 20ª posição. | - pontos | 3 |
-| 8 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de cubos, em que eu provejo a quantia de números a serem listados, seguindo a ordem dos números naturais à 15ª posição. | - pontos | 3 |
-| 9 | Baixa | Como usuário da cálculadora de sequências lógicas, quero a implementação do algorítmo de listagem da sequência de fatoriais para N termos, no qual insiro N. Por fim, a sequência deve ser exibida em ordem reversa, com o último termo sendo exibido primeiro | - pontos | 3 |
+| 7 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula de números triangulares em posições impares, começando pela posição 1, até a 20ª posição. | 8 pontos | 3 |
+| 8 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de cubos, em que eu provejo a quantia de números a serem listados, seguindo a ordem dos números naturais à 15ª posição. | 4 pontos | 3 |
+| 9 | Baixa | Como usuário da cálculadora de sequências lógicas, quero a implementação do algorítmo de listagem da sequência de fatoriais para N termos, no qual insiro N. Por fim, a sequência deve ser exibida em ordem reversa, com o último termo sendo exibido primeiro | 20 pontos | 3 |
 
 
 ##  Manual de Instalação
@@ -49,8 +49,9 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 ##  Link para as documentações 
 
 - [Manual do Usuário](docs/manual/usuario.md)
-- [Sprint Backlog](docs/sprint/backlog_sprint1.md)
-- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
+- [Relatório Sprint 1](docs/sprint/relatorio_sprint1.md)
+- [Relatorio Sprint 2](docs/sprint/relatorio_sprint2.md)
+- [Relatorio Sprint 3](docs/sprint/relatorio_sprint3.md)
 
 
 ##  Tecnologia utilizadas 
